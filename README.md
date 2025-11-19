@@ -40,9 +40,22 @@ Pharmacy Sales System  This project is a simple **Pharmacy Sales Database** for 
 | Quantity       | INT           | Quantity sold                |
 | SaleDate       | DATE          | Date of sale                 |
 
+-- Create database and tables
+SOURCE create_database.sql;
+
+-- Insert sample data
+SOURCE insert_data.sql;
+
+-- Add triggers
+SOURCE triggers.sql;
+
+-- Test queries
+SOURCE queries.sql;
+
 ## How to Use
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/AnitaCloudTech/pharmacy-sales-system.git
 cd pharmacy-sales-system/sql
+
