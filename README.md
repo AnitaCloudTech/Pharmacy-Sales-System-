@@ -41,15 +41,19 @@ Pharmacy Sales System  This project is a simple **Pharmacy Sales Database** for 
 | SaleDate       | DATE          | Date of sale                 |
 
 -- Create database and tables
+```
 SOURCE create_database.sql;
 
 -- Insert sample data
+```
 SOURCE insert_data.sql;
 
 -- Add triggers
+```
 SOURCE triggers.sql;
 
 -- Test queries
+```
 SOURCE queries.sql;
 
 ## How to Use
